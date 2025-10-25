@@ -1,0 +1,52 @@
+[
+  {
+    "login": "ivan_petrov",
+    "password": "ivan12345",
+    "name": "Иван Петров"
+  },
+  {
+    "login": "maria_sidorova", 
+    "password": "maria2024",
+    "name": "Мария Сидорова"
+  },
+  {
+    "login": "alex_volkov",
+    "password": "alex7890",
+    "name": "Алексей Волков"
+  },
+  {
+    "login": "anna_kuznetsova",
+    "password": "anna1111",
+    "name": "Анна Кузнецова"
+  },
+  {
+    "login": "dmitry_ivanov",
+    "password": "dmitry555",
+    "name": "Дмитрий Иванов"
+  },
+  {
+    "login": "elena_smirnova",
+    "password": "elena888",
+    "name": "Елена Смирнова"
+  },
+  {
+    "login": "sergey_popov",
+    "password": "sergey333",
+    "name": "Сергей Попов"
+  },
+  {
+    "login": "olga_fedorova",
+    "password": "olga9999",
+    "name": "Ольга Федорова"
+  },
+  {
+    "login": "maxim_orlov",
+    "password": "maxim777",
+    "name": "Максим Орлов"
+  },
+  {
+    "login": "natalia_lebedeva",
+    "password": "natalia222",
+    "name": "Наталья Лебедева"
+  }
+]
