@@ -9,20 +9,21 @@ interface Article {
   title: string
   description: string
   icon: string
+  order: number
 }
 
 type Articles = Article[]
 
 const articles: Articles = [
-  { title: 'Онлайн-прием', description: 'Рыба текст', icon: cardiogram },
-  { title: 'Экстренный Случай', description: 'Рыба текст', icon: stethoscope },
-  { title: 'Лечение рака', description: 'Рыба текст', icon: medicalHistory },
+  { title: 'Онлайн-прием', description: 'Рыба текст', icon: cardiogram, order: 1 },
+  { title: 'Экстренный Случай', description: 'Рыба текст', icon: stethoscope, order: 2 },
+  { title: 'Лечение рака', description: 'Рыба текст', icon: medicalHistory, order: 3 },
 ]
 
 const AdvantagesArticle = ({ article }: { article: Article }) => {
-  const { title, description, icon } = article
+  const { title, description, icon, order } = article
   return (
-    <article className="advantages__article">
+    <article className={`advantages__article article-${order}`}>
       <div className="advantages__article-header">
         <h5 className="advantages__article-title">{title}</h5>
         <div className="advantages__article-icon">

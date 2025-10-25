@@ -327,6 +327,18 @@ h5 {
   justify-content: center;
 }
 
+.article-1 { 
+  order: 1;
+}
+
+.article-2 { 
+  order: 2;
+}
+
+.article-3 { 
+  order: 3;
+}
+
 /* -----------------------modal styles----------------------- */
 .modal-overlay {
   position: fixed;
@@ -454,11 +466,24 @@ h5 {
 
 @media (max-width: 680px) {
   .banner__advantages {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
-   .advantages__article {
+
+  .article-1 { 
+    order: 2;
+  }
+
+  .article-2 { 
+    order: 3;
+  }
+
+  .article-3 { 
+    order: 1;
+  }
+
+  .advantages__article {
     width: 328px;
-   }
+  }
 }
 
 @media (max-width: 534px) {
